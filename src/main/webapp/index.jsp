@@ -10,8 +10,7 @@
 <br/>
 
 <form action="Controller">
-    <button href="hello-servlet">Hello Servlet</button>
-
+    <input type="submit" value="println employees lastname">
 </form>
 
 </body>
