@@ -2,11 +2,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+    <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
+<h1><%= "Hello World!" %>
+</h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<form action="Controller">
+    <button href="hello-servlet">Hello Servlet</button>
+
+</form>
+
 </body>
 </html>
