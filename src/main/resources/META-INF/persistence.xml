@@ -5,7 +5,7 @@
              version="3.0">
     <persistence-unit name="default">
 
-        <class>model.EmployeeEntity</class>
+        <class>webapp.se.webappse.model.EmployeeEntity</class>
         <properties>
             <property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306/employeesdb"/>
             <property name="eclipselink.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>

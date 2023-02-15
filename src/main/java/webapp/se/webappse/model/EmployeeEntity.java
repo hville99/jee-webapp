@@ -1,4 +1,4 @@
-package model;
+package webapp.se.webappse.model;
 
 import jakarta.persistence.*;
 

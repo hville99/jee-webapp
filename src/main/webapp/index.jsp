@@ -1,17 +1,29 @@
+<%--
+    Purpose  : APR course - 2023
+    Author   : JAA
+--%>
+
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>ST2APR</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
+
 <br/>
 
-<form action="Controller">
-    <input type="submit" value="println employees lastname">
-</form>
+<fieldset>
+    <legend>Login</legend>
+    <form name ='myForm' action='Controller' method="post">
+        <label>Login :<input type='text' name='loginField' id="idLoginField" placeholder='Type your login here'></label><br/>
+        <label>Password :<input type='password' name='pwdField' id="idPwdField" placeholder='Type your password here'></label> <br/>
+        <input type='submit' name='action' value='OK'>
+    </form>
+
+</fieldset>
 
 </body>
 </html>

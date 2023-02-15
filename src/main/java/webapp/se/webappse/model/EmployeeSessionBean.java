@@ -1,4 +1,4 @@
-package model;
+package webapp.se.webappse.model;
 
 
 import jakarta.ejb.Stateless;
@@ -7,6 +7,7 @@ import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 import jakarta.persistence.Query;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 @Stateless
